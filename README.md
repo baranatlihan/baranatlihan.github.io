@@ -8,9 +8,9 @@
    ◾ Google Play Store: <a href ="https://play.google.com/store/apps/details?id=com.BaboliGames.DrunkBully">✔ Click here! ✔</a>
     </h4>
   <br>
-  <A HREF="pages/privacy.html">Privacy Policy</A>
+  <A HREF="pages/DrunkBullyPrivacy.html">Privacy Policy</A>
   <br>
-  <A HREF="pages/termsCondition.html">Terms & Conditions</A>
+  <A HREF="pages/DrunkBullyTermsCondition.html">Terms & Conditions</A>
   <center><h2>________________________________________________________________</h2> </center>
   <br><br><br>
   <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
