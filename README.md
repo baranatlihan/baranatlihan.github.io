@@ -12,7 +12,7 @@
 <center>
   <h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4>
   
-  <h2><br>__________________________________________</h2> </center>
+<center><h2>________________________________________________________________</h2> </center>
 <br><br><br>
 <center><a href="https://github.com/Baranbaboli">  😎  my github page  😎</a><p style = "color:green">Contact: baranatlihan9@gmail.com</p></center>
 </html>
