@@ -13,7 +13,7 @@
   <A HREF="pages/termsCondition.html">Terms & Conditions</A>
   <center><h2>________________________________________________________________</h2> </center>
   <br><br><br>
-  <h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4>
+  <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
   <br>  
   <center><h2>________________________________________________________________</h2> </center>
   <br><br>
