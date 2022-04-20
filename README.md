@@ -12,9 +12,11 @@
   <br>
   <A HREF="pages/DrunkBullyTermsCondition.html">Terms & Conditions</A>
   <center><h2>_______________________________________________________________</h2> </center>
-  <br><br
-          - Drunk Bully new version avaible, not published in store.
+  <br>
+          - Drunk Bully new version avaible, not published in store. 
+          <br>
           - Drunk Runner soon...
+          <br>
   <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
   <br>  
   <center><h2>______________________________________________________________</h2> </center>
