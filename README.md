@@ -13,7 +13,7 @@
   <A HREF="pages/DrunkBullyTermsCondition.html">Terms & Conditions</A>
   <center><h2>_______________________________________________________________</h2> </center>
   <br>
-          - Drunk Bully new version avaible, not published in store. 
+          - Drunk Bully new version avaible, not published in store yet. 
           <br>
           - Drunk Runner soon...
           <br>
