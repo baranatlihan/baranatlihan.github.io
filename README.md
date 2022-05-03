@@ -3,7 +3,7 @@
   <center><h2> I created my first hypercasual game Drunk Bully! </h2> </center>
   <br>
     <h4>
-   ◾ For web play: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a>
+   ◾ For Web Play: <A HREF="pages/DrunkBullyWebGL.html">✔ Click here! ✔></A>
     <br>
    ◾ Google Play Store: <a href ="https://play.google.com/store/apps/details?id=com.BaboliGames.DrunkBully">✔ Click here! ✔</a>
     </h4>
@@ -18,6 +18,7 @@
           - Drunk Runner soon...
           <br>
   <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
+  ◾ For itch.io play: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a><br>
   <br>  
   <center><h2>______________________________________________________________</h2> </center>
   <br><br>
