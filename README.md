@@ -15,7 +15,7 @@
   <br>
           <center><h4>For itch.io Play</h4></center>
           <center> Drunk Bully: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a><br></center>
-          <center> Drunk Runner: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a><br></center>
+          <center> Drunk Runner: <a href = "https://baranbaboli.itch.io/drunkrunner"> 🕹  Click Here!  🕹</a><br></center>
           <br>
           <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
   
