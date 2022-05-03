@@ -3,7 +3,7 @@
   <center><h2> I created my first hypercasual game Drunk Bully! </h2> </center>
   <br>
     <h4>
-   ◾ Web Play: <A HREF="pages/DrunkBullyWebGL.html"> ✔ Click here! ✔></A>
+   ◾ <A HREF="pages/DrunkBullyWebGL.html"> 🕹 Play 🕹</A>
     <br>
    ◾ Google Play Store: <a href ="https://play.google.com/store/apps/details?id=com.BaboliGames.DrunkBully">✔ Click here! ✔</a>
     </h4>
@@ -13,14 +13,22 @@
   <A HREF="pages/DrunkBullyTermsCondition.html">Terms & Conditions</A>
   <center><h2>_______________________________________________________________</h2> </center>
   <br>
+          <center><h4>For itch.io Play</h4></center>
+          <center> Drunk Bull: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a><br></center>
+          <center> Drunk Runner: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a><br></center>
+          <br>
+          <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
+  
+  <br>  
+  <center><h2>______________________________________________________________</h2> </center>
+    <br>
           - Drunk Bully new version avaible, not published in store yet. 
           <br>
           - Drunk Runner soon...
-          <br>
-  <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
-  ◾ For itch.io play: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a><br>
+    <br>
+  <center><h2>_______________________________________________________________</h2> </center>
+  
   <br>  
-  <center><h2>______________________________________________________________</h2> </center>
   <br><br>
   <center><a href="https://github.com/Baranbaboli">  😎  my github page  😎</a><p style = "color:green">Contact: baranatlihan9@gmail.com</p></center>
 
