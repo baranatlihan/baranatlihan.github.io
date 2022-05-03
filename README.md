@@ -3,7 +3,7 @@
   <center><h2> I created my first hypercasual game Drunk Bully! </h2> </center>
   <br>
     <h4>
-   ◾ For Web Play: <A HREF="pages/DrunkBullyWebGL.html">✔ Click here! ✔></A>
+   ◾ Web Play: <A HREF="pages/DrunkBullyWebGL.html"> ✔ Click here! ✔></A>
     <br>
    ◾ Google Play Store: <a href ="https://play.google.com/store/apps/details?id=com.BaboliGames.DrunkBully">✔ Click here! ✔</a>
     </h4>
