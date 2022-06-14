@@ -12,12 +12,10 @@
   <br>
   <A HREF="pages/DrunkBullyTermsCondition.html">Terms & Conditions</A>
   <center><h2>_______________________________________________________________</h2> </center>
-  <center><h2> Drunk Bully! </h2> </center>
+  <center><h2> Drunk Runner! </h2> </center>
   <br>
     <h4>
    ◾ <A HREF="pages/DrunkRunnerWebGL.html"> 🕹 Play 🕹</A>
-    <br>
-   ◾ <A HREF="https://play.google.com/store/apps/details?id=com.BaboliGames.DrunkRunner"> 🕹 Play 🕹</A>
     <br>
    ◾ Google Play Store: <a href ="">✔ Click here! ✔</a>
     </h4>
@@ -39,7 +37,9 @@
     <br>
           - Drunk Bully new version avaible, not published in store yet. 
           <br>
-          - Drunk Runner soon...
+          - Drunk Runner new version avaible, not published in store yet. 
+          <br>
+          - Simit soon...
     <br>
   <center><h2>_______________________________________________________________</h2> </center>
   
