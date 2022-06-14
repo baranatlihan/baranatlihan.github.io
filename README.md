@@ -1,6 +1,6 @@
 <html>
 
-  <center><h2> I created my first hypercasual game Drunk Bully! </h2> </center>
+  <center><h2> Drunk Bully! </h2> </center>
   <br>
     <h4>
    ◾ <A HREF="pages/DrunkBullyWebGL.html"> 🕹 Play 🕹</A>
@@ -11,6 +11,21 @@
   <A HREF="pages/DrunkBullyPrivacy.html">Privacy Policy</A>
   <br>
   <A HREF="pages/DrunkBullyTermsCondition.html">Terms & Conditions</A>
+  <center><h2>_______________________________________________________________</h2> </center>
+  <center><h2> Drunk Bully! </h2> </center>
+  <br>
+    <h4>
+   ◾ <A HREF="pages/DrunkRunnerWebGL.html"> 🕹 Play 🕹</A>
+    <br>
+   ◾ <A HREF="https://play.google.com/store/apps/details?id=com.BaboliGames.DrunkRunner"> 🕹 Play 🕹</A>
+    <br>
+   ◾ Google Play Store: <a href ="">✔ Click here! ✔</a>
+    </h4>
+  <br>
+  <A HREF="pages/DrunkRunnerPrivacy.html">Privacy Policy</A>
+  <br>
+  <A HREF="pages/DrunkRunnerTermsCondition.html">Terms & Conditions</A>
+
   <center><h2>_______________________________________________________________</h2> </center>
   <br>
           <center><h4>For itch.io Play</h4></center>
