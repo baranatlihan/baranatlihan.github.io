@@ -17,7 +17,7 @@
     <h4>
    ◾ <A HREF="pages/DrunkRunnerWebGL.html"> 🕹 Play 🕹</A>
     <br>
-   ◾ Google Play Store: <a href ="">✔ Click here! ✔</a>
+   ◾ Google Play Store: <a href ="https://play.google.com/store/apps/details?id=com.BaboliGames.DrunkRunner">✔ Click here! ✔</a>
     </h4>
   <br>
   <A HREF="pages/DrunkRunnerPrivacy.html">Privacy Policy</A>
