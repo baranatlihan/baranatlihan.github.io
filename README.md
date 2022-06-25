@@ -35,9 +35,9 @@
   <br>  
   <center><h2>______________________________________________________________</h2> </center>
     <br>
-          - Drunk Bully new version avaible, not published in store yet. 
+          - Drunk Bully new version avaible, not published in store yet. (Light will be change.)
           <br>
-          - Drunk Runner new version avaible, not published in store yet. 
+          - Drunk Runner new version avaible, not published in store yet. (Object pooling will use)
           <br>
           - Simit soon...
     <br>
