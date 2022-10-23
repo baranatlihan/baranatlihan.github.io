@@ -25,7 +25,12 @@
   <A HREF="pages/DrunkRunnerTermsCondition.html">Terms & Conditions</A>
 
   <center><h2>_______________________________________________________________</h2> </center>
-  <center><h2> Drunk Runner! </h2> </center>
+  <center><h2> Space Kick! </h2> </center>
+  <h4>
+   ◾ <A HREF="https://baranbaboli.github.io"> 🕹 Play 🕹</A>
+    <br>
+   ◾ Google Play Store: <a href ="https://baranbaboli.github.io">✔ Click here! ✔</a>
+    </h4>
   <br>
   <A HREF="pages/SpaceKickPrivacy.html">Privacy Policy</A>
   <br>
