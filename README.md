@@ -29,7 +29,7 @@
   <h4>
    ◾ <A HREF="https://baranbaboli.github.io"> 🕹 Play 🕹</A>
     <br>
-   ◾ Google Play Store: <a href ="https://baranbaboli.github.io">✔ Click here! ✔</a>
+   ◾ Google Play Store: <a href ="https://play.google.com/store/apps/details?id=com.BaboliGames.SpaceKick">✔ Click here! ✔</a>
     </h4>
   <br>
   <A HREF="pages/SpaceKickPrivacy.html">Privacy Policy</A>
