@@ -43,6 +43,8 @@
           <center> Drunk Runner: <a href = "https://baranbaboli.itch.io/drunkrunner"> 🕹  Click Here!  🕹</a><br></center>
           <br>
           <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
+          <br>
+          <center><h4>and you can go to my <a href="https://play.google.com/store/apps/developer?id=baranbaboli">Google Play</a> profile</h4></center>
   
     <br>
   <center><h2>_______________________________________________________________</h2> </center>
