@@ -44,8 +44,7 @@
           <br>
           <center><h4>Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile</h4></center>
           <center><h4>and <a href="https://play.google.com/store/apps/developer?id=baranbaboli">Google Play Store</a> profile</h4></center>
-  
-    <br>
+
   <center><h2>_______________________________________________________________</h2> </center>
   
   <br>  
