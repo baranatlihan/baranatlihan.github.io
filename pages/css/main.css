@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: rgb(162, 241, 162);
+}
+
+
+/* Navbar Section */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 75px;
+    /* 0.25rem = 4px */
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.50rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #7ca190;
+    border-radius: 5px;
+}
+
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#home img {
+    width: 128px;
+    height: auto;
+    border: 3px solid #3f5249;
+    border-radius: 128px;
+}
+
+/* 
+#home .name{
+    text-align: center;
+} class'ı div'e ekleyebiliyoruz, globalde .text-center class'ımız var*/
+
+#home .name h2 {
+    color: #465c51;
+    opacity: 0.95;
+    margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+#home .name p {
+    margin-top: 0.25rem;
+    color: #3f5249;
+    opacity: 0.75;
+    font-size: large;
+}
+
+
+/* Interests */
+#interests {
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+#interests p {
+    padding: 0.5rem;
+}
+
+#interests .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#interests .items .item {
+    color: whitesmoke;
+    opacity: 0.85;
+    width: 33%;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+#interests .items .item:hover {
+    background: #465c51;
+    color: white;
+    opacity: 0.95;
+}
+
+
+/* Games */
+
+#games {
+    width: 100%;
+    color: #465c51;
+    padding: 2rem;
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.games .game {
+    display: flex;
+    margin: 1rem;
+}
+
+
+.games .game .game-image {
+    position: relative;
+    display: flex;
+}
+
+
+.games .game .game-image img {
+    border: 10px solid #3f5249;
+    border-radius: 20px;
+}
+
+
+.games .game .game-image span {
+    background: #90c5ac;
+    padding: 0.25rem;
+    color: #3f5249;
+    border-radius: 8px;
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: small;
+
+    bottom: 1rem;
+    left: 1rem;
+}
+
+#contact {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#email {
+    margin-top: 1rem;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+#contact ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+}
+
+
+#contact ul li a {
+    padding: 1rem;
+    font-size: xx-large;
+    display: flex;
+}

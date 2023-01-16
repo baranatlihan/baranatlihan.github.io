@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+  <h2> <a href="https://baranbaboli.github.io"> 📍 my github.io page 📍 </a></h2>
+=======
 <html>
 
   <center><h2> Drunk Bully! </h2> </center>
@@ -52,3 +55,4 @@
   <center><a href="https://github.com/Baranbaboli">  😎  my github page  😎</a><p style = "color:green">Contact: baranatlihan9@gmail.com</p></center>
 
 </html>
+>>>>>>> 50a9c353dce085e28d20b8eebcdc14816575f28f

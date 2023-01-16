@@ -1,0 +1,79 @@
+/* Text */
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+
+
+/* Colors */
+.bg-baboli-color {
+    background-color: #7ca190;
+}
+
+.bg-baboli-dark-color {
+    background-color: #3f5249;
+}
+
+.bg-baboli-interests {
+    background-color: #517263;
+}
+
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #7ca190;
+}
+
+
+/* Buttons */
+
+.btn {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.75rem;
+    border-radius: 10px;
+}
+
+.btn-type1 {
+    background-color: #7ca190;
+    letter-spacing: 0.5px;
+    font-size: large;
+
+    /* hover size change fix :) */
+    border: 2px solid #7ca190;
+}
+
+.btn-type1:hover {
+    background-color: whitesmoke;
+    color: #7ca190;
+    border: 2px solid #7ca190;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+/*
+.btn-type2 {
+    color: blue;
+}
+
+.btn-type2:hover {
+    color: red;
+} */
+
+

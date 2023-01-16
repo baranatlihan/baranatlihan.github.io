@@ -1,52 +1,170 @@
 <!DOCTYPE html>
-<style>
-    a:link {
-      color: #28B873;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:visited {
-      color: #28B873;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    a:hover {
-      color: #28B873;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    a:active {
-      color: yellow;
-      background-color: transparent;
-      text-decoration: underline;
-    }
-    </style>
-<html>
-    <body bgcolor=#545454>
-        <head>
-            <title>baranbaboli page</title>
-            <br>
-        </head>    
-        <center><h4 style="color:#28B463">I'am using android mobil IDE for this page. Only HTML for now.</h4></center>
-        <center><h4><a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">  📃 about: (Github token) 📃</a></h4>
+<html lang="en">
 
-        <center><h2> ________________________________ </h2>
-        <h3> I created my first hypercasual game Drunk Bully! </h3> </center>
-         ◾ Google Play Store: <a href ="https://play.google.com/store/apps/details?			id=com.BaboliGames.DrunkBully">✔ Click here! ✔</a><br>
-         ◾ For Web Play: <A HREF="pages/DrunkBullyWebGL.html">✔ Click here! ✔></A>
-        <br><br><br>
-        <A HREF="pages/DrunkBullyPrivacy.html">Privacy Policy</A>
-        <br>
-        <A HREF="pages/DrunkBullyTermsCondition.html">Terms & Conditions</A>
-        <center><h2>________________________________</h2></center> 
-        <br>
-        ◾ Also you can go to my <a href="https://baranbaboli.itch.io">itch.io</a> profile <br>
-        ◾ For itch.io play: <a href = "https://baranbaboli.itch.io/drunkbully"> 🕹  Click Here!  🕹</a><br></h5>
-        <h2>________________________________</h2></center>
-        <center><a href="https://github.com/Baranbaboli">  😎  my github page  😎</a></center>
-    </h5>
-    <br>
-    <p style = "color:green">Contact: baranatlihan9@gmail.com</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baran Atlıhan Test Web</title>
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="description" content="Baran Atlıhan Test Web Page">
+
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Tablet & Mobile -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:600px)" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-baboli-dark-color">
+        <div class="container">
+            <nav id="navbar">
+                <h1 style="opacity: 0.8;" class="heading-big">Baran Web Test</h1>
+                <ul>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home">
+        <img src="images/baranatlihan.jpeg" alt="Baran Atlıhan">
+
+        <div class="name text-center">
+            <h2 class="heading-big">Baran Atlıhan</h2>
+            <p>Computer Engineer | Game Developer</p>
+        </div>
+        <a href="#games" class="btn btn-type1">🎮</a>
+    </section>
+
+
+    <section id="interests" class="bg-baboli-interests">
+
+
+        <h3 class="text-center heading-medium" style="color: whitesmoke;">Interests</h3>
+
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-gamepad"></i>
+                <h3>Game Development </h3>
+                <p>Game Development shortly is the art of creating games. Game development processes include describes,
+                    desgin, development and relase period. The development effort is undertaken by a developer ranging
+                    from single developer to an big international teams the global.</p>
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Web Development </h3>
+                <p>Web development is the creating, building, and maintaining of websites. This development can range
+                    from developing basic page of plain text to social networks or complex web applications.</p>
+
+            </article>
+
+            <article class="item">
+                <i class="fa-solid fa-coins"></i>
+                <h3>Finance</h3>
+                <p>Finance is the study and discipline of money, currency and capital assets. The study of production,
+                    distribution, and consumption of money, assets, goods, and services are related to, but not
+                    synonymous with, economics. <a href="https://en.wikipedia.org/wiki/Finance#cite_note-1">[1]</a></p>
+
+            </article>
+        </div>
+    </section>
+
+
+
+
+    <section id="games">
+
+        <h4 class="text-center heading-medium">Games</h4>
+        <div class="container">
+            <div class="games">
+                <!-- game1  db-->
+                <div class="game">
+                    <div class="game-image">
+                        <img src="/images/DrunkBullyLogo.png" alt="Drunk Bully">
+                        <span>Mobile / Portait</span>
+                    </div>
+
+                </div> <!--game1 Drunk Bully ends-->
+
+                <!-- game2 dr -->
+                <div class="game">
+                    <div class="game-image">
+                        <img src="/images/DrunkRunnerLogo.png" alt="Drunk Runner">
+                        <span>Mobile / Portait</span>
+                    </div>
+                </div> <!--game2 Drunk Runner ends-->
+
+
+
+                <!-- game3 sk-->
+                <div class="game">
+                    <div class="game-image">
+                        <img src="/images/SpaceKickLogo.png" alt="Space Kick">
+                        <span>Mobile / Portait</span>
+                    </div>
+                </div> <!--game3 space kick ends-->
+
+
+                <!-- game4 SfO-->
+                <div class="game">
+                    <div class="game-image">
+                        <img src="/images/SurviveForOvidiaLogo.png" alt="Survive for Ovidia">
+                        <span>PC / First Person</span>
+                    </div>
+                </div> <!--game4 sfO-->
+
+                <!-- game4 RGBox Colorballs-->
+                <div class="game">
+                    <div class="game-image">
+                        <img src="/images/rgbox-colorballs.png" alt="RGBox Colorballs">
+                        <span>PROTOTYPE</span>
+                    </div>
+                </div> <!--game4 RGBox Colorballs-->
+
+            </div> <!-- games ends -->
+        </div> <!-- container ends -->
+    </section>
+
+    <footer id="contact" class="bg-baboli-dark-color">
+
+
+        <div class="contact">
+            <h5 class="text-center heading-medium" style="color:whitesmoke">Contact</h5>
+            <p id="email" class="text-center">baranatlihan9@gmail.com</p>
+
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/baranbaboli/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/baranbaboli"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/Baranbaboli"><i class="fa-brands fa-github"></i></a>
+                </li>
+        </div>
+
+
+    </footer> <!-- footer ends -->
+
+</body>
+
 </html>
-     

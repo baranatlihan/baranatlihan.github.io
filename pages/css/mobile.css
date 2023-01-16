@@ -1,0 +1,15 @@
+#navbar {
+    flex-direction: column;
+    padding: 1rem 0;
+    overflow: hidden;
+    height: 100px;
+}
+
+#interests .items {
+    flex-direction: column;
+}
+
+#interests .items .item {
+    width: 100%;
+}
+
