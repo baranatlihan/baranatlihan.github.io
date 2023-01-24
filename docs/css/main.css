@@ -137,6 +137,9 @@ h2 {
 }
 
 
+
+
+
 .games .game .game-image {
     position: relative;
     display: flex;
@@ -162,10 +165,22 @@ h2 {
     left: 1rem;
 }
 
+.game a {
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: small;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #3f5249;
+    border-radius: 5px;
+}
+
 #contact {
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
+
 }
 
 #email {
