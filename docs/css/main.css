@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(162, 241, 162);
+    color: rgb(162, 229, 241);
 }
 
 
@@ -43,8 +43,9 @@ h2 {
 }
 
 #navbar ul li a:hover {
-    background-color: #7ca190;
-    border-radius: 5px;
+    padding: 1rem;
+    background-color: #515e75;
+    border-radius: 6px;
 }
 
 
@@ -70,7 +71,7 @@ h2 {
 } class'ı div'e ekleyebiliyoruz, globalde .text-center class'ımız var*/
 
 #home .name h2 {
-    color: #465c51;
+    color: #303B41;
     opacity: 0.95;
     margin-bottom: 0.25rem;
     margin-top: 0.5rem;
@@ -78,7 +79,7 @@ h2 {
 
 #home .name p {
     margin-top: 0.25rem;
-    color: #3f5249;
+    color: #222e35;
     opacity: 0.75;
     font-size: large;
 }
@@ -110,7 +111,7 @@ h2 {
 
 
 #interests .items .item:hover {
-    background: #465c51;
+    background: #2d364470;
     color: white;
     opacity: 0.95;
 }
@@ -120,7 +121,7 @@ h2 {
 
 #games {
     width: 100%;
-    color: #465c51;
+    color: #354650;
     padding: 2rem;
 }
 
@@ -147,15 +148,15 @@ h2 {
 
 
 .games .game .game-image img {
-    border: 10px solid #3f5249;
+    border: 10px solid #303B41;
     border-radius: 20px;
 }
 
 
 .games .game .game-image span {
-    background: #90c5ac;
+    background: #9abbce;
     padding: 0.25rem;
-    color: #3f5249;
+    color: #303B41;
     border-radius: 8px;
     position: absolute;
     letter-spacing: 1px;
