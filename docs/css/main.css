@@ -116,6 +116,12 @@ h2 {
     opacity: 0.95;
 }
 
+/* test section */
+.testSec {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 /* Games */
 
