@@ -183,6 +183,14 @@ h2 {
     border-radius: 5px;
 }
 
+/* playableGames */
+#playableGames{
+    width: 100%;
+    padding: 1rem;
+}
+
+
+
 #contact {
     padding: 1rem;
     display: flex;

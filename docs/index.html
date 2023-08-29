@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Tablet & Mobile -->
     <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
@@ -50,12 +51,12 @@
             <h2 class="heading-big">Baran Atlıhan</h2>
             <p>Computer Engineer | Game Developer</p>
         </div>
-        <a href="#games" class="btn btn-type1">🎮</a>
+        <a href="#playableGames" class="btn btn-type1">🎮</a>
     </section>
 
 
 
-    <section id="interests" class="bg-baboli-interests" >
+    <section id="interests" class="bg-baboli-interests">
 
 
         <h3 class="text-center heading-medium" style="color: whitesmoke;">Interests</h3>
@@ -89,70 +90,67 @@
     </section>
 
 
-    <section id="trading" class="bg-baboli-interests" >
-        
+    <section id="trading" class="bg-baboli-interests">
+
         <h5 class="text-center" style="color: rgb(212, 211, 211); padding-top: 1.5%;">Trading these, for now.</h5>
 
-<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="padding-left:7%" >
-    <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
-            target="_blank"><span></span></a></div>
-    <script type="text/javascript"
-        src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-            {
-                "symbols": [
-                    [
-                        "BINANCE:BTCUSDT|1M"
-                    ],
-                    [
-                        "BINANCE:ETHUSDT|1M"
-                    ],
-                    [
-                        "BINANCE:USDTTRY|1D"
-                    ],
-                    [
-                        "BINANCE:EDUUSDT|1D"
-                    ]
-                ],
-                    "chartOnly": false,
-                        "width": "95%",
-                            "height": 500,
-                                "locale": "en",
-                                    "colorTheme": "dark",
-                                        "autosize": false,
-                                            "showVolume": false,
-                                                "showMA": false,
-                                                    "hideDateRanges": false,
-                                                        "hideMarketStatus": false,
-                                                            "hideSymbolLogo": false,
-                                                                "scalePosition": "right",
-                                                                    "scaleMode": "Normal",
-                                                                        "fontFamily": "Trebuchet MS, sans-serif",
-                                                                            "fontSize": "10",
-                                                                                "noTimeScale": false,
-                                                                                    "valuesTracking": "1",
-                                                                                        "changeMode": "price-and-percent",
-                                                                                            "chartType": "area",
-                                                                                                "maLineColor": "#2962FF",
-                                                                                                    "maLineWidth": 1,
-                                                                                                        "maLength": 9,
-                                                                                                            "gridLineColor": "rgba(93, 96, 107, 0.4)",
-                                                                                                                "backgroundColor": "rgba(48, 59, 65, 1)",
-                                                                                                                    "lineWidth": 2,
-                                                                                                                        "lineType": 0,
-                                                                                                                            "dateRanges": [
-                                                                                                                                "1d|1",
-                                                                                                                                "1m|30",
-                                                                                                                                "3m|60",
-                                                                                                                                "12m|1D",
-                                                                                                                                "60m|1W",
-                                                                                                                                "all|1M"
-                                                                                                                            ]
-            }
-        </script>
-</div>
-<!-- TradingView Widget END -->
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container" style="padding-left:7%">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                    target="_blank"><span></span></a></div>
+            <script type="text/javascript"
+                src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+                    {
+                        "symbols": [
+                            [
+                                "BINANCE:BTCUSDT|1M"
+                            ],
+                            [
+                                "BINANCE:ETHUSDT|1M"
+                            ],
+                            [
+                                "BINANCE:USDTTRY|1M"
+                            ]
+                        ],
+                            "chartOnly": false,
+                                "width": "95%",
+                                    "height": 500,
+                                        "locale": "en",
+                                            "colorTheme": "dark",
+                                                "autosize": false,
+                                                    "showVolume": false,
+                                                        "showMA": false,
+                                                            "hideDateRanges": false,
+                                                                "hideMarketStatus": false,
+                                                                    "hideSymbolLogo": false,
+                                                                        "scalePosition": "right",
+                                                                            "scaleMode": "Normal",
+                                                                                "fontFamily": "Trebuchet MS, sans-serif",
+                                                                                    "fontSize": "10",
+                                                                                        "noTimeScale": false,
+                                                                                            "valuesTracking": "1",
+                                                                                                "changeMode": "price-and-percent",
+                                                                                                    "chartType": "area",
+                                                                                                        "maLineColor": "#2962FF",
+                                                                                                            "maLineWidth": 1,
+                                                                                                                "maLength": 9,
+                                                                                                                    "gridLineColor": "rgba(93, 96, 107, 0.4)",
+                                                                                                                        "backgroundColor": "rgba(48, 59, 65, 1)",
+                                                                                                                            "lineWidth": 2,
+                                                                                                                                "lineType": 0,
+                                                                                                                                    "dateRanges": [
+                                                                                                                                        "1d|1",
+                                                                                                                                        "1m|30",
+                                                                                                                                        "3m|60",
+                                                                                                                                        "12m|1D",
+                                                                                                                                        "60m|1W",
+                                                                                                                                        "all|1M"
+                                                                                                                                    ]
+                    }
+                </script>
+        </div>
+        <!-- TradingView Widget END -->
     </section>> <!--Treading section ends-->
 
 
@@ -161,16 +159,15 @@
 
         <h4 class="text-center heading-medium">Games</h4>
         <div class="container">
-            <div class="games">
+            <div class="games" style="background-color: #5a758344;">
                 <!-- game1  db-->
                 <div class="game">
+
                     <div class="game-image">
                         <img src="images/DrunkBullyLogo.png" alt="Drunk Bully">
                         <span>Mobile / Portait</span>
-
                         <a href="DrunkBullyPrivacy.html">privacy</a>
                     </div>
-
                 </div> <!--game1 Drunk Bully ends-->
 
                 <!-- game2 dr -->
@@ -183,8 +180,6 @@
 
 
                 </div> <!--game2 Drunk Runner ends-->
-
-
 
                 <!-- game3 sk-->
                 <div class="game">
@@ -223,6 +218,83 @@
             </div> <!-- games ends -->
         </div> <!-- container ends -->
     </section>
+
+
+    <!-- Playable games buttons -->
+    <section id="playableGames">
+
+        <div class="container" style="border-color: #303B41;">
+
+            <div class="containerCustom" style="background-color: #5a758344;">
+            </div>
+
+            <div class="containerCustom" style="background-color: #5a758344;">
+
+                <div>
+                    <a class="buttonCustom" href="#" style="--color:#2e5abe;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Play Drunk Bully!
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+
+                <div>
+                    <a class="buttonCustom" href="#" style="--color:#c22929;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Play Drunk Runner!
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+
+                <div>
+                    <a class="buttonCustom" href="#" style="--color:#36c229;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Play Space Kick!
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <a class="buttonCustom" href="#" style="--color:#24cece;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Play no-name test
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+            <div class="containerCustom" style="background-color: #5a758344;">
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
 
     <footer id="contact" class="bg-baboli-dark-color">
 
