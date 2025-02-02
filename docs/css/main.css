@@ -59,11 +59,18 @@ h2 {
 }
 
 #home img {
-    width: 128px;
+    width: 150px;
     height: auto;
-    border: 3px solid #3f5249;
-    border-radius: 128px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+    transition: transform 0.3s;
 }
+
+#home img:hover {
+    transform: rotate(5deg) scale(1.1);
+}
+
 
 /* 
 #home .name{
@@ -184,7 +191,7 @@ h2 {
 }
 
 /* playableGames */
-#playableGames{
+#playableGames {
     width: 100%;
     padding: 1rem;
 }

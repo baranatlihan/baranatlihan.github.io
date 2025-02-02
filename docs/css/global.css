@@ -18,12 +18,17 @@
 
 
 /* Colors */
+:root {
+    --primary-color: #303B41;
+    --secondary-color: #5E6B74;
+}
+
 .bg-baboli-color {
-    background-color: #5E6B74;
+    background-color: var(--secondary-color);
 }
 
 .bg-baboli-dark-color {
-    background-color: #303B41;
+    background-color: var(--primary-color);
 }
 
 .bg-baboli-interests {
@@ -77,3 +82,100 @@
 } */
 
 
+.space-top {
+    margin-top: 1.5rem;
+}
+
+/* Navbar Genel */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #2a2d3e, #4a5666);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Menü */
+#menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#menu li {
+    transition: transform 0.2s;
+}
+
+#menu li:hover {
+    transform: scale(1.1);
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#menu li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Menü Mobil */
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #2a2d3e;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #menu.active {
+        display: flex;
+    }
+}
+
+/* Sayfa Yumuşak Kaydırma */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hover Efektleri */
+a,
+.buttonCustom {
+    transition: all 0.3s ease-in-out;
+}

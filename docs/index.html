@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baran Atlıhan Test Web</title>
-    <meta name="keywords" content="HTML,CSS,JavaScript,REIN Game Studio, Rein Game, Game Development, Baran ATLIHAN,Unity,Back in Business, Mobile Game Development">
+    <title>Baran Atlıhan Web</title>
+    <meta name="keywords"
+        content="HTML,CSS,JavaScript,REIN Game Studio, Rein Game, Game Development, Baran ATLIHAN,Unity,Back in Business, Mobile Game Development">
     <meta name="description" content="Baran Atlıhan Web Page 0.1">
 
 
@@ -32,73 +33,76 @@
 <body>
     <header class="bg-baboli-dark-color">
         <div class="container">
-            <nav id="navbar">
-                <h1 style="opacity: 0.9;" class="heading-big">Baran's Web Page</h1>
-                <ul>
-                    <li><a href="#games">Games</a></li>
-                    <li><a href="#interests">Interests</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <header>
+                <nav id="navbar">
+                    <div class="logo">Baran ATLIHAN's Website</div>
+                    <ul id="menu">
+                        <li><a href="#games">🎮 Games</a></li>
+                        <li><a href="#interests">💡 Interests</a></li>
+                        <li><a href="#contact">📩 Contact</a></li>
+                    </ul>
+                    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                </nav>
+            </header>
         </div>
     </header>
 
 
     <section id="home">
-        <img src="images/baranatlihan.jpeg" alt="Baran Atlıhan">
+        <br><br>
+        <img src="images/baranatlihan.jpeg" alt="Baran Atlıhan" loading="lazy">
 
         <div class="name text-center">
-            <h2 class="heading-big">Baran Atlıhan</h2>        
+            <h2 class="heading-big">Baran Atlıhan</h2>
 
             <p>Computer Engineer | Indie Game Developer
                 <br>
-                </p>
+            </p>
         </div>
         <br>
         <div class="text-center">
-            <h3 style="margin-bottom: 0.25rem;">WebGL Games</h3>
-            
-            <a href="#playableGames" class="btn btn-type1" >🎮</a>    
+            <h3 style="margin-bottom: 0.25rem;">Playable Games</h3>
+            <a href="#playableGames" class="btn btn-type1">🎮</a>
             <br>
         </div>
         <br>
-        <div class="text-center">
-            <br>
+        <div class="text-center space-top">
             <h4>REIN Game Studio</h4>
-            <a href="https://www.instagram.com/reingamestudio/" style="color: #286180;"> <i class="fa-brands fa-instagram"></i> Instagram <i class="fa-brands fa-instagram"></i></a>                            
-                        
+            <a href="https://www.instagram.com/reingamestudio/" style="color: #286180;">
+                <i class="fa-brands fa-instagram"></i> Instagram <i class="fa-brands fa-instagram"></i>
+            </a>
         </div>
-        
         <br>
         <br>
-
         <div class="text-center">
-            <h2 class="heading-small" style="color: #303B41;">🗣️ Back in Business Open Beta Available! 🗣️</h2>
-                 I developed an open world low poly action indie game all by myself!
-                    Open Beta is available on App Store and Google Play Store!
+            <h2 class="heading-small" style="color: #303B41;">🗣️ Back in Business!!! 🗣️</h2>
+            I developed an open world low poly action indie game all by myself!
+            Open Beta is available on App Store and Google Play Store!
+            <br>
+            <a href="BackinBusiness/index.html" style="color: #2e5abe;">🎮 Game Main Page (Coming soon...maybe) 🎮</a>
+            <br> <br>
+            <a href="Games/BackInBusinessDemoWebGL/index.html" class="btn btn-type1" target="_blank">PLAY TUTORIAL
+            </a>
+            <br>
+            <br>
+            <br>
+
+            <div class="left-aligned-text">
+                <h3 style="color: #457189; ">Links:
+                </h3>
+                <p>
+                    <a href="https://apps.apple.com/app/back-in-business/id6479563419" style="color: #286180;"> <i
+                            class="fab fa-app-store"></i> App Store </a>
                     <br>
-                    <a href="BackinBusiness/index.html" style="color: #2e5abe;">🎮 Game Main Page (soon...) 🎮</a>
-                     <br>    <br>
-                    <a href="Games/BackInBusinessDemoWebGL/index.html" class="btn btn-type1" target="_blank">PLAY TUTORIAL TEST</a>    
-                <br>
-                <br>
-                <br>
+                    <a href="https://play.google.com/store/apps/details?id=com.baranatlihan.backinbusiness"
+                        style="color: #286180;"><i class="fa-brands fa-google-play"></i> Google Play Store </a>
+                </p>
 
-                <div class="left-aligned-text">
-                    <h3 style="color: #303B41; ">
-                        FULL GAME Mobile Store Links    
-                    </h3>
-                    <p >
-                        <a href="https://apps.apple.com/app/back-in-business/id6479563419" style="color: #286180;"> <i class="fab fa-app-store"></i> App Store </a>                            
-                        <br>
-                        <a href="https://play.google.com/store/apps/details?id=com.baranatlihan.backinbusiness" style="color: #286180;"><i class="fa-brands fa-google-play"></i> Google Play Store </a>                               
-                    </p>
+            </div>
 
-                </div>
+            <br>
+            <br>
 
-                <br>
-                <br>
-            
         </div>
 
     </section>
@@ -132,84 +136,25 @@
                 <h3>Finance</h3>
                 <p>Finance is the study and discipline of money, currency and capital assets. The study of production,
                     distribution, and consumption of money, assets, goods, and services are related to, but not
-                    synonymous with, economics . . . <a href="https://en.wikipedia.org/wiki/Finance#cite_note-1"><i class="fa fa-info-circle" aria-hidden="true"></i></a></p>
+                    synonymous with, economics . . . <a href="https://en.wikipedia.org/wiki/Finance#cite_note-1"><i
+                            class="fa fa-info-circle" aria-hidden="true"></i></a></p>
 
             </article>
-            
+
             <article class="item">
                 <i class="fa-solid fa-business-time"></i>
                 <h3>Business Development</h3>
-                <p>Business development entails tasks and processes to develop and implement growth opportunities within and between organizations.
-                     Business development is the creation of long-term value for an organization from customers, markets, 
-                     and relationships . . . <a href="https://en.wikipedia.org/wiki/Business_development"><i class="fa fa-info-circle" aria-hidden="true"></i></a></p>
+                <p>Business development entails tasks and processes to develop and implement growth opportunities within
+                    and between organizations.
+                    Business development is the creation of long-term value for an organization from customers, markets,
+                    and relationships . . . <a href="https://en.wikipedia.org/wiki/Business_development"><i
+                            class="fa fa-info-circle" aria-hidden="true"></i></a></p>
 
             </article>
         </div>
     </section>
 
 
-    <section id="trading" class="bg-baboli-interests">
-
-        <h5 class="text-center" style="color: rgb(212, 211, 211); padding-top: 1.5%;">_</h5>
-
-        <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-widget-container" style="padding-left:7%">
-            <div class="tradingview-widget-container__widget"></div>
-            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
-                    target="_blank"><span></span></a></div>
-            <script type="text/javascript"
-                src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-                    {
-                        "symbols": [
-                            [
-                                "BINANCE:BTCUSDT|1M"
-                            ],
-                            [
-                                "BINANCE:ETHUSDT|1M"
-                            ],
-                            [
-                                "BINANCE:USDTTRY|1M"
-                            ]
-                        ],
-                            "chartOnly": false,
-                                "width": "95%",
-                                    "height": 500,
-                                        "locale": "en",
-                                            "colorTheme": "dark",
-                                                "autosize": false,
-                                                    "showVolume": false,
-                                                        "showMA": false,
-                                                            "hideDateRanges": false,
-                                                                "hideMarketStatus": false,
-                                                                    "hideSymbolLogo": false,
-                                                                        "scalePosition": "right",
-                                                                            "scaleMode": "Normal",
-                                                                                "fontFamily": "Trebuchet MS, sans-serif",
-                                                                                    "fontSize": "10",
-                                                                                        "noTimeScale": false,
-                                                                                            "valuesTracking": "1",
-                                                                                                "changeMode": "price-and-percent",
-                                                                                                    "chartType": "area",
-                                                                                                        "maLineColor": "#2962FF",
-                                                                                                            "maLineWidth": 1,
-                                                                                                                "maLength": 9,
-                                                                                                                    "gridLineColor": "rgba(93, 96, 107, 0.4)",
-                                                                                                                        "backgroundColor": "rgba(48, 59, 65, 1)",
-                                                                                                                            "lineWidth": 2,
-                                                                                                                                "lineType": 0,
-                                                                                                                                    "dateRanges": [
-                                                                                                                                        "1d|1",
-                                                                                                                                        "1m|30",
-                                                                                                                                        "3m|60",
-                                                                                                                                        "12m|1D",
-                                                                                                                                        "60m|1W",
-                                                                                                                                        "all|1M"
-                                                                                                                                    ]
-                    }
-                </script>
-        </div>
-        <!-- TradingView Widget END -->
-    </section>> <!--Treading section ends-->
 
 
 
@@ -378,17 +323,25 @@
                 </li>
                 <li>
                     <a href="https://twitter.com/baranatlhn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                      </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg>
                     </a>
-                    
+
                 </li>
 
         </div>
 
 
     </footer> <!-- footer ends -->
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("active");
+        }
+    </script>
 
 </body>
 

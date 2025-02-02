@@ -13,3 +13,27 @@
     width: 100%;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #303B41;
+        text-align: center;
+    }
+
+    #menu.active {
+        display: flex;
+    }
+}
