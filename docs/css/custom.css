@@ -15,29 +15,26 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 100px;
-    background: #303B41;
 }
 
 .buttonCustom {
-    position: relative;
-    padding: 16px 32px;
-    font-size: 1.5rem;
-    font-weight: bold;
+    background: var(--accent-color);
     color: white;
-    text-transform: uppercase;
+    padding: 12px 24px;
+    font-size: 1rem;
     border: none;
-    background: linear-gradient(45deg, #2250db, #23ba2b);
-    border-radius: 10px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: 0.4s;
-    box-shadow: 0 0 10px rgba(159, 110, 249, 0.5);
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .buttonCustom:hover {
-    background: linear-gradient(45deg, #2250db, #23ba2b);
-    box-shadow: 0 0 15px rgba(159, 110, 249, 0.8), 0 0 30px rgba(43, 255, 0, 0.5);
+    background: var(--hover-color);
     transform: scale(1.05);
 }
+
 
 
 .buttonCustom:hover,
