@@ -88,67 +88,7 @@
     transition-delay: 0s;
 }
 
-.buttonCustom span:nth-child(1),
-.buttonCustom span:nth-child(3) {
-    width: 20px;
-    height: 2px;
-}
 
-.buttonCustom:hover span:nth-child(1),
-.buttonCustom:hover span:nth-child(3) {
-    transform: translateX(0);
-}
-
-.buttonCustom span:nth-child(2),
-.buttonCustom span:nth-child(4) {
-    width: 2px;
-    height: 20px;
-}
-
-.buttonCustom:hover span:nth-child(1),
-.buttonCustom:hover span:nth-child(3) {
-    transform: translateY(0);
-}
-
-.buttonCustom span:nth-child(1) {
-    top: calc(50% - 2px);
-    left: -40px;
-    transform-origin: left;
-}
-
-.buttonCustom:hover span:nth-child(1) {
-    left: 50%;
-}
-
-.buttonCustom span:nth-child(3) {
-    top: calc(50% - 2px);
-    right: -40px;
-    transform-origin: right;
-}
-
-.buttonCustom:hover span:nth-child(3) {
-    right: 50%;
-}
-
-.buttonCustom span:nth-child(2) {
-    left: calc(50% - 2px);
-    top: -40px;
-    transform-origin: top;
-}
-
-.buttonCustom:hover span:nth-child(2) {
-    top: 50%;
-}
-
-.buttonCustom span:nth-child(4) {
-    left: calc(50% - 2px);
-    bottom: -40px;
-    transform-origin: bottom;
-}
-
-.buttonCustom:hover span:nth-child(4) {
-    bottom: 50%;
-}
 
 .left-aligned-text {
     text-align: left;
