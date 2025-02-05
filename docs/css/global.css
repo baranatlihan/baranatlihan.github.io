@@ -67,13 +67,21 @@ body {
 
 .container {
     max-width: 780px;
-    margin: 0 auto;
+    margin: 5rem auto;
     background: var(--secondary-bg);
-    padding: 15px;
+    padding: 30px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px silver;
+    box-shadow: 0px 0px 15px silver;
 }
 
+.container2 {
+    max-width: 780px;
+    margin: 0 auto;
+    background: var(--primary-bg);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px rgb(66, 66, 66);
+}
 
 /* Buttons */
 
