@@ -2,37 +2,34 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
 .containerCustom {
     width: 100%;
-    min-height: 15vh;
+    min-height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 100px;
+    flex-wrap: inherit;
+    gap: 60px;
 }
 
 .buttonCustom {
     background: var(--accent-color);
-    color: white;
     padding: 12px 24px;
     font-size: 1rem;
     border: none;
-    border-radius: 6px;
+    border-radius: 9px;
     cursor: pointer;
-    transition: 0.3s;
-    text-transform: uppercase;
-    font-weight: 600;
+    transition: .2s;
+    font-weight: 400;
 }
 
 .buttonCustom:hover {
     background: var(--hover-color);
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
 
 
@@ -60,36 +57,17 @@
 }
 
 .buttonCustom:hover::before {
-    transform: scale(1);
-    transition-delay: 0.5s;
+    transition-delay: 0.1s;
     box-shadow: 0 0 10px var(--color),
         0 0 30px var(--color),
         0 0 60px var(--color);
 }
 
-.buttonCustom::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: var(--color);
-    z-index: -1;
-    transform: scale(0);
-    transition: 0.5s;
-}
 
 .buttonCustom:hover::before {
     transform: scale(1);
-    transition-delay: 0.5s;
-}
-
-.buttonCustom:hover span {
-    opacity: 0;
-    transition-delay: 0s;
+    transition-delay: 0.1s;
 }
 
 
 
-.left-aligned-text {
-    text-align: left;
-}

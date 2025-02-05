@@ -31,30 +31,28 @@
 </head>
 
 <body>
-    <header class="bg-baboli-dark-color">
-        <div class="container">
-            <header>
-                <nav id="navbar">
-                    <div class="logo">
-                        <i class="fa-solid fa-r"></i>
-                        <i class="fa-solid fa-e"></i>
-                        <i class="fa-solid fa-i"></i>
-                        <i class="fa-solid fa-n"></i>
-                        <i class="fa-solid fa-droplet"></i>
-                    </div>
-                    <ul id="menu">
-                        <li><a href="#games">🎮 Games</a></li>
-                        <li><a href="#interests">💡 Interests</a></li>
-                        <li><a href="#contact">📩 Contact</a></li>
-                    </ul>
-                    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-                </nav>
-            </header>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+            <nav id="navbar" style="background-color:rgb(42, 47, 50);">
+                <div class="logo">
+                    <i class="fa-solid fa-r"></i>
+                    <i class="fa-solid fa-e"></i>
+                    <i class="fa-solid fa-i"></i>
+                    <i class="fa-solid fa-n"></i>
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+                <ul id="menu">
+                    <li><a href="#games">🎮 Games</a></li>
+                    <li><a href="#interests">💡 Interests</a></li>
+                    <li><a href="#contact">📩 Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">☰</div>
+            </nav>
+        </header>
+    </div>
     <br>
 
-    <section id="home">
+    <section id="home" class="container">
         <br><br>
         <img src="images/baranatlihan.jpeg" alt="Baran Atlıhan" loading="lazy">
 
@@ -67,7 +65,8 @@
         </div>
         <br> <br>
         <div class="text-center">
-            <a style="color: #4197c6; padding: 1rem;" class="btn btn-type1" href="#playableGames"><i class="fa fa-gamepad"></i> Playable Games 
+            <a style="color: #4197c6; padding: 1rem;" class="btn btn-type1" href="#playableGames"><i
+                    class="fa fa-gamepad"></i> Playable Games
                 <i class="fa fa-gamepad"></i></a>
             <br>
             <br>
@@ -77,8 +76,7 @@
             <div class="text-center space-top">
                 <h1 class="heading-big" style="font-size: xx-large">REIN GAME STUDIO</h1>
                 <a class="heading-medium" href="https://www.instagram.com/reingamestudio/" style="color: #4197c6;">
-                    <p><i class="fa-brands fa-instagram"></i> Instagram <i
-                            class="fa-brands fa-instagram"></i></p>
+                    <p><i class="fa-brands fa-instagram"></i> Instagram <i class="fa-brands fa-instagram"></i></p>
 
                 </a>
             </div>
@@ -129,7 +127,6 @@
 
     <section id="interests" class="bg-baboli-interests">
 
-
         <h3 class="text-center heading-medium" style="color: whitesmoke;">Interests</h3>
 
         <div class="items">
@@ -178,8 +175,9 @@
 
     <section id="games">
 
-        <h4 class="text-center heading-medium">Games</h4>
-        <div class="container">
+        <div class="container" style="margin-top: .5rem;">
+            
+        <h2 class="text-center heading-medium" style="color: aliceblue;">GAMES</h2>
             <div class="games">
                 <!-- game1  db-->
                 <div class="game">
@@ -244,79 +242,29 @@
 
     <!-- Playable games buttons -->
     <section id="playableGames">
-
-        <div class="container">
-
-            <div class="containerCustom">
-            </div>
-
+        <div class="container" style="margin-top: 0.5rem;">
+            <h2 class="text-center heading-small" style="color: aliceblue;">Playable Games</h2>
+            <br>
             <div class="containerCustom">
 
-                <div>
-                    <a class="buttonCustom" href="Games/DrunkBullyWEBGL/index.html" target="_blank"
-                        style="--color:303B41;">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Play Drunk Bully!
-                    </a>
-                    <br>
-                    <br>
-                    <br>
-                </div>
+                <div class="containerCustom">
 
+                    <a class="buttonCustom  text-center" href="Games/DrunkBullyWEBGL/index.html" target="_blank"
+                        style="--color:#303B41;"> <i class="fa fa-play"></i> <br>Drunk Bully</a>
 
-                <div>
-                    <a class="buttonCustom" href="Games/DrunkRunnerWEBGL/index.html" target="_blank"
+                    <a class="buttonCustom  text-center" href="Games/DrunkRunnerWEBGL/index.html" target="_blank"
+                        style="--color:#303B41;"><i class="fa fa-play"></i> <br>Drunk Runner </a>
+
+                    <a class="buttonCustom  text-center" href="Games/SpaceKickWEBGL/index.html" target="_blank"
+                        style="--color:#303B41;"><i class="fa fa-play"></i> <br>Space Kick </a>
+
+                    <a class="buttonCustom  text-center" href="Games/NonameWEBGL/index.html" target="_blank"
                         style="--color:#303B41;">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Play Drunk Runner!
+                        <i class="fa fa-play"></i> <br>no-name-test
                     </a>
-                    <br>
-                    <br>
-                    <br>
-                </div>
 
-
-                <div>
-                    <a class="buttonCustom" href="Games/SpaceKickWEBGL/index.html" target="_blank"
-                        style="--color:#303B41;">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Play Space Kick!
-                    </a>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-                <div>
-                    <a class="buttonCustom" href="Games/NonameWEBGL/index.html" target="_blank"
-                        style="--color:#303B41;">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        Play no-name test
-                    </a>
-                    <br>
-                    <br>
-                    <br>
                 </div>
             </div>
-
-            <div class="containerCustom">
-            </div>
-        </div>
-
-
-
-
     </section>
 
 
@@ -324,10 +272,9 @@
 
     <footer id="contact" class="bg-baboli-dark-color">
 
-
         <div class="contact">
-            <h5 class="text-center heading-medium" style="color:whitesmoke">Contact</h5>
-            <p id="email" class="text-center">baranatlihan9@gmail.com</p>
+            <h1 class="text-center heading-large" style="color:whitesmoke">Contact</h1>
+            <p style="font-size: 1.25rem;" id="email" class="text-center">baranatlihan9@gmail.com</p>
 
             <ul>
                 <li>
@@ -353,14 +300,14 @@
         </div>
 
 
-    </footer> <!-- footer ends -->
+    </footer>
+    <!-- footer ends -->
 
     <script>
-        function toggleMenu() {
+        document.getElementById("menu-toggle").addEventListener("click", function () {
             document.getElementById("menu").classList.toggle("active");
-        }
+        });
     </script>
-
 </body>
 
 </html>
