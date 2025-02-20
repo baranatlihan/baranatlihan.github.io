@@ -51,6 +51,8 @@ h2 {
 
 /* Home Section */
 #home {
+    margin-top: 100px;
+    /* Fixed navbar için boşluk */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,6 +110,8 @@ h2 {
 }
 
 #interests .items {
+    align-items: flex-start;
+    gap: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,6 +148,8 @@ h2 {
 }
 
 .games {
+    flex-wrap: wrap;
+    gap: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -204,8 +210,10 @@ h2 {
 
 
 #contact {
-    padding: 1rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
     justify-content: space-evenly;
 
 }

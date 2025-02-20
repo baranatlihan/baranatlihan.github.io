@@ -26,8 +26,7 @@
     <link rel="stylesheet" href="css/custom.css">
 
     <!-- Tablet & Mobile -->
-    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
-    <link rel="stylesheet" media="(max-width:600px)" href="css/mobile.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="css/mobile.css">
 </head>
 
 <body>
@@ -41,12 +40,12 @@
                     <i class="fa-solid fa-n"></i>
                     <i class="fa-solid fa-droplet"></i>
                 </div>
+                <div class="menu-toggle" id="menu-toggle">☰</div>
                 <ul id="menu">
                     <li><a href="#games">🎮 Games</a></li>
                     <li><a href="#interests">💡 Interests</a></li>
                     <li><a href="#contact">📩 Contact</a></li>
                 </ul>
-                <div class="menu-toggle" id="menu-toggle">☰</div>
             </nav>
         </header>
     </div>
@@ -308,12 +307,12 @@
 
     </footer>
     <!-- footer ends -->
-
     <script>
         document.getElementById("menu-toggle").addEventListener("click", function () {
             document.getElementById("menu").classList.toggle("active");
         });
     </script>
+
 </body>
 
 </html>

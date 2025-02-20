@@ -1,8 +1,8 @@
 #navbar {
     flex-direction: column;
-    padding: 1rem 0;
-    overflow: hidden;
-    height: 100px;
+    align-items: flex-start;
+    padding: 1rem;
+    height: auto;
 }
 
 #interests .items {
@@ -10,14 +10,15 @@
 }
 
 #interests .items .item {
-    width: 100%;
+    width: 90%;
 }
 
 .menu-toggle {
-    display: none;
+    display: block;
     font-size: 2rem;
     cursor: pointer;
     padding: 0.5rem;
+    align-self: flex-end;
 }
 
 @media (max-width: 768px) {
@@ -37,3 +38,28 @@
         display: flex;
     }
 }
+
+#menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: var(--secondary-bg);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#menu.active {
+    display: flex;
+}
+
+#interests .items {
+    flex-direction: column;
+  }
+  .games {
+    flex-direction: column;
+    align-items: center;
+  }
+  
