@@ -43,9 +43,8 @@ h2 {
 }
 
 #navbar ul li a:hover {
-    padding: 1rem;
-    background-color: #515e75;
-    border-radius: 6px;
+    background-color: #585858;
+    border-radius: 8px;
 }
 
 
