@@ -1,65 +1,54 @@
-#navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    height: auto;
-}
-
-#interests .items {
-    flex-direction: column;
-}
-
-#interests .items .item {
-    width: 90%;
-}
-
-.menu-toggle {
-    display: block;
-    font-size: 2rem;
-    cursor: pointer;
-    padding: 0.5rem;
-    align-self: flex-end;
-}
-
 @media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
+
+    /* Navbar ayarları */
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        height: auto;
+        position: relative;
     }
 
+    /* Menü Toggle Butonu */
+    .menu-toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        padding: 0.5rem;
+        align-self: flex-end;
+    }
+
+    /* Menü: Başlangıçta gizli */
     #menu {
-        display: none;
+        display: none !important;
         flex-direction: column;
         width: 100%;
-        background-color: #303B41;
+        background: var(--secondary-bg);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 1rem 0;
         text-align: center;
     }
 
+    /* Toggle aktif olduğunda menüyü göster */
     #menu.active {
-        display: flex;
+        display: flex !important;
+    }
+
+    /* Interests bölümündeki ayarlar */
+    #interests .items {
+        flex-direction: column;
+    }
+
+    #interests .items .item {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Games bölümündeki ayarlar */
+    .games {
+        flex-direction: column;
+        align-items: center;
     }
 }
-
-#menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background: var(--secondary-bg);
-    position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-#menu.active {
-    display: flex;
-}
-
-#interests .items {
-    flex-direction: column;
-  }
-  .games {
-    flex-direction: column;
-    align-items: center;
-  }
-  
