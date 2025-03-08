@@ -1,0 +1,82 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import "tailwindcss/tailwind.css";
+
+const Navbar = () => (
+  <nav className="flex justify-between items-center p-4 bg-gray-900 text-white shadow-lg">
+    <h1 className="text-2xl font-bold">Rein Game Studio</h1>
+    <div className="space-x-4">
+      <Link to="/" className="hover:text-gray-400">Ana Sayfa</Link>
+      <Link to="/games" className="hover:text-gray-400">Oyunlar</Link>
+      <Link to="/about" className="hover:text-gray-400">Hakkında</Link>
+      <Link to="/contact" className="hover:text-gray-400">İletişim</Link>
+    </div>
+  </nav>
+);
+
+const Home = () => (
+  <motion.div 
+    initial={{ opacity: 0 }} 
+    animate={{ opacity: 1 }} 
+    transition={{ duration: 1 }}
+    className="flex flex-col items-center justify-center h-screen bg-gray-800 text-white text-center px-6"
+  >
+    <h2 className="text-5xl font-bold mb-4">Bağımsız Oyun Geliştiriciliğinde Yeni Bir Güç</h2>
+    <p className="text-lg mb-6">Rein Game Studio, yenilikçi ve eğlenceli oyunlar yaratır.</p>
+    <Link to="/games" className="px-6 py-3 bg-blue-500 rounded-lg text-white text-lg hover:bg-blue-600 transition">
+      Oyunlarımızı Keşfet
+    </Link>
+  </motion.div>
+);
+
+const Games = () => (
+  <div className="min-h-screen bg-gray-900 text-white p-10">
+    <h2 className="text-3xl font-bold mb-6">Oyunlarımız</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-bold">Back in Business</h3>
+        <p>Bir açık dünya aksiyon oyunu.</p>
+      </div>
+      <div className="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-bold">Space Survivor 3D</h3>
+        <p>Uzayda geçen hayatta kalma mücadelesi.</p>
+      </div>
+    </div>
+  </div>
+);
+
+const About = () => (
+  <div className="min-h-screen bg-gray-900 text-white p-10 text-center">
+    <h2 className="text-3xl font-bold mb-4">Hakkımızda</h2>
+    <p className="text-lg max-w-2xl mx-auto">
+      Rein Game Studio, bağımsız olarak oyun geliştiren bir stüdyo. Yenilikçi, eğlenceli ve ilgi çekici oyunlar üretmeye odaklanıyoruz.
+    </p>
+  </div>
+);
+
+const Contact = () => (
+  <div className="min-h-screen bg-gray-900 text-white p-10 text-center">
+    <h2 className="text-3xl font-bold mb-4">İletişim</h2>
+    <p className="text-lg">Bize ulaşmak için sosyal medya hesaplarımızı veya e-posta adresimizi kullanabilirsiniz.</p>
+    <div className="mt-6 space-x-4">
+      <a href="#" className="text-blue-400 hover:underline">Twitter</a>
+      <a href="#" className="text-blue-400 hover:underline">LinkedIn</a>
+      <a href="#" className="text-blue-400 hover:underline">GitHub</a>
+    </div>
+  </div>
+);
+
+const App = () => (
+  <Router>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/games" element={<Games />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </Router>
+);
+
+export default App;
