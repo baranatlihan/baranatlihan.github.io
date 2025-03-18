@@ -57,4 +57,21 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .container2 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container.text-center h2 {
+        font-size: 1.5rem;
+        /* İhtiyaca göre değeri ayarla */
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    .btn.btn-type1 {
+        display: inline-block;
+        white-space: nowrap;
+    }
 }
