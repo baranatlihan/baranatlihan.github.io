@@ -1,72 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Survivor 3D Guide</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Space Survivor 3D</h1>
-        <nav>
-            <ul>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#gameplay">Gameplay</a></li>
-                <li><a href="#upgrades">Upgrades</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#language" id="language-toggle">🇺🇸 English / 🇹🇷 Türkçe</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="overview" class="lang lang-en">
-        <h2>About the Game</h2>
-        <p>Space Survivor 3D is a space roguelike game where you survive against endless waves of enemies...</p>
-    </section>
-    <section id="overview" class="lang lang-tr" style="display: none;">
-        <h2>Oyun Hakkında</h2>
-        <p>Space Survivor 3D, sonsuz düşman dalgalarına karşı hayatta kalmaya çalıştığınız bir uzay roguelike oyunudur...</p>
-    </section>
-    
-    <section id="gameplay" class="lang lang-en">
-        <h2>Gameplay</h2>
-        <p>Control your character with a joystick, eliminate enemies, and try to survive...</p>
-    </section>
-    <section id="gameplay" class="lang lang-tr" style="display: none;">
-        <h2>Oynanış</h2>
-        <p>Joystick ile karakterinizi yönlendirin, düşmanları yok edin ve hayatta kalmaya çalışın...</p>
-    </section>
-    
-    <section id="upgrades" class="lang lang-en">
-        <h2>Upgrades</h2>
-        <p>Gain XP, unlock new skills, and make permanent upgrades...</p>
-    </section>
-    <section id="upgrades" class="lang lang-tr" style="display: none;">
-        <h2>Yükseltmeler</h2>
-        <p>XP kazanarak yeni yetenekler açın ve kalıcı yükseltmeler yapın...</p>
-    </section>
-    
-    <section id="contact" class="lang lang-en">
-        <h2>Contact</h2>
-        <p>You can reach us at <a href="mailto:info@spacesurvivor3d.com">info@spacesurvivor3d.com</a>.</p>
-    </section>
-    <section id="contact" class="lang lang-tr" style="display: none;">
-        <h2>İletişim</h2>
-        <p>Bize ulaşmak için <a href="mailto:info@spacesurvivor3d.com">baranatlihan9@gmail.com</a> adresine e-posta gönderebilirsiniz.</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Space Survivor 3D - All Rights Reserved.</p>
-    </footer>
-    
-    <script>
-        document.getElementById("language-toggle").addEventListener("click", function(event) {
-            event.preventDefault();
-            document.querySelectorAll(".lang").forEach(element => {
-                element.style.display = element.style.display === "none" ? "block" : "none";
-            });
-        });
-    </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Advent Pro font'u Google Fonts'tan yükle -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Space Survivor 3D</title>
+    <script type="module" crossorigin src="/SpaceSurvivor3D/assets/index-vg0l8lIa.js"></script>
+    <link rel="stylesheet" crossorigin href="/SpaceSurvivor3D/assets/index-Cp448nIQ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
