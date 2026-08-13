@@ -1,52 +1,95 @@
-<h1 align="center">baranatlihan.github.io</h1>
+<div align="center">
 
-<p align="center">
-  Personal portfolio of <strong>Baran ATLIHAN</strong> — Computer Engineer, game-focused software developer and builder of interactive web experiences.
-</p>
+# Baran Atlıhan — Portfolio
 
-<p align="center">
-  <a href="https://baranatlihan.github.io/"><strong>baranatlihan.github.io</strong></a>
-</p>
+**Game Developer · Computer Engineer · Independent Builder**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=flat-square&logo=githubpages&logoColor=3FB950" alt="Portfolio" />
-  <img src="https://img.shields.io/badge/Game_Development-0D1117?style=flat-square&logo=unity&logoColor=white" alt="Game Development" />
-  <img src="https://img.shields.io/badge/Web_Experience-0D1117?style=flat-square&logo=react&logoColor=3FB950" alt="Web Experience" />
-  <img src="https://img.shields.io/badge/Mobile-0D1117?style=flat-square&logo=apple&logoColor=3FB950" alt="Mobile" />
-</p>
+[View the live portfolio](https://baranatlihan.github.io/)
+
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-0b0b0d?style=flat-square&logo=github&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-0b0b0d?style=flat-square&logo=unity&logoColor=white)
+![React](https://img.shields.io/badge/React-0b0b0d?style=flat-square&logo=react&logoColor=white)
+![Mobile Games](https://img.shields.io/badge/Mobile_Games-0b0b0d?style=flat-square&logo=applearcade&logoColor=white)
+
+</div>
 
 ---
 
-This repository hosts my personal portfolio website.
+This repository hosts the production build of my personal portfolio: a focused showcase of the games, reusable systems, development tools, and interactive experiences I build.
 
-The site is designed as a compact showcase for the work I care about most: games, tools, prototypes, production workflows and interactive UI details. It is part portfolio, part playground — a place where engineering and small visual touches can live on the same page.
+The site combines a minimal monochrome interface with subtle motion and responsive presentation. It is designed to communicate both sides of my work: shipping player-facing experiences and building the engineering foundations behind them.
 
-## Focus
+## Featured work
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <strong>Games</strong><br />
-      <sub>Unity, gameplay systems and mobile-first production</sub>
-    </td>
-    <td width="33%" align="center">
-      <strong>Tools</strong><br />
-      <sub>Editor workflows, reusable foundations and fast iteration</sub>
-    </td>
-    <td width="33%" align="center">
-      <strong>Web</strong><br />
-      <sub>Interactive portfolio surfaces and lightweight product pages</sub>
-    </td>
-  </tr>
-</table>
+- **Mobile and hybrid-puzzle games** — released titles, independent projects, and confidential production work for Rayo Games.
+- **Raindrop** — my reusable Unity mobile-game development foundation.
+- **Unity systems and tooling** — gameplay architecture, editor workflows, level authoring, pooling, feedback, and performance work.
+- **Playable web projects** — selected WebGL games, prototypes, tools, and product pages.
 
-## Notes
+## Raindrop
 
-The public site shows selected work and presentation material. Most active game and tooling repositories are private while they are being developed.
+Raindrop is the Unity development system I design, build, and maintain for my mobile games.
+
+It packages the infrastructure that would otherwise be rebuilt for every project while keeping game-specific mechanics, content, art, and identity in the game itself. Its purpose is practical: give each new title a dependable production baseline and make iteration safer and faster.
+
+The portfolio presents its major areas:
+
+- scene and level flow;
+- startup validation and loading presentation;
+- object pooling and lifecycle management;
+- keyed audio and native mobile haptics;
+- save, progression, diagnostics, and reset flows;
+- editor utilities, starter UI, and repeatable setup workflows.
+
+## Selected games
+
+The current portfolio includes:
+
+- six confidential hybrid-puzzle projects developed for **Rayo Games**;
+- **Color Pop Jam** and **Elastic Block Puzzle**, my independent hybrid-puzzle projects in development;
+- released and experimental games from **REIN Game Studio** and earlier personal work.
+
+Confidential projects are intentionally described at a systems-and-responsibilities level. Their private content, assets, and source code are not published here.
+
+## Experience
+
+The live site includes:
+
+- responsive layouts for mobile, tablet, and desktop;
+- Turkish and English content;
+- an interactive game carousel;
+- dedicated Raindrop and project showcases;
+- playable WebGL links;
+- skills, interests, and contact sections;
+- restrained transitions, hover feedback, and ambient glow.
+
+## Technology
+
+The portfolio is built with:
+
+- React and Vite;
+- Tailwind CSS;
+- Framer Motion;
+- Keen Slider;
+- React Icons;
+- GitHub Pages.
+
+## Repository structure
+
+```text
+.
+├── docs/       # Production-ready GitHub Pages build
+└── README.md   # Project overview
+```
+
+This repository contains the deployed static output. Active game projects, Raindrop development, and most production tooling live in separate repositories and may remain private while in development.
 
 ---
 
-<p align="center">
-  Built with care, curiosity and a very serious relationship with iteration.
-</p>
+<div align="center">
 
+Built and maintained by **Baran Atlıhan**.
+
+[Portfolio](https://baranatlihan.github.io/) · [GitHub](https://github.com/baranatlihan) · [LinkedIn](https://www.linkedin.com/in/baranatlihan/)
+
+</div>
